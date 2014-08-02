@@ -6,9 +6,9 @@ iTunesで流してる音楽のトラック名を喋らせるスクリプトで�
 
 * Ruby 2.0.0p481
 * SoX
-* itunes-client (https://github.com/takuminnnn/itunes-client)
-* voice_text_api (https://github.com/tdtds/voice_text_api)
-* clockwork (https://github.com/tomykaira/clockwork)
+* itunes-client 0.1.7 (https://github.com/takuminnnn/itunes-client)
+* voice_text_api 0.0.3 (https://github.com/tdtds/voice_text_api)
+* clockwork 0.7.7 (https://github.com/tomykaira/clockwork)
 
 # Setup
 
