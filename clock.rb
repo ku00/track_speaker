@@ -1,11 +1,12 @@
 #!/usr/bin/ruby
 require 'clockwork'
-require './speak_track'
+require './speak'
+include Speak
 
 module Clockwork
   handler do |job|
-    job.call
+    self.send(job.to_sym)
   end
 
-  every(5.seconds, SpeackTrack.new)
+  every(5.seconds, 'speak_track')
 end
