@@ -6,8 +6,8 @@ module Clockwork
   speak = Speak.new
   
   handler do |job|
-    job.speak_track
+    job.judge
   end
 
-  every(speak.next_start_time.seconds, speak)
+  every(7.seconds, speak)
 end
