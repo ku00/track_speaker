@@ -15,15 +15,13 @@ class Speak
   def initialize
     @vt = VoiceTextAPI.new(API_KEY)
     @speaker = SPEAKER[rand(3)]
-    
     @player = Player.play
-    @start = next_start_time
   end
 
   def next_start_time
     track = @player.current_track
     time = track.time.split(':').reverse
-    time.map.with_index { |t, idx| t.to_i * (60 ** idx) }.inject(:+) - 5
+    time.map.with_index { |t, idx| t.to_i * (60 ** idx) }.inject(:+)
   end
 
   def speak_track

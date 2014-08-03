@@ -9,5 +9,5 @@ module Clockwork
     job.speak_track
   end
 
-  every(speak.start.seconds, speak)
+  every(speak.next_start_time.seconds, speak)
 end
