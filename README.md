@@ -19,12 +19,7 @@ $ git clone git@github.com:takuminnnn/track_speaker.git
 
 ```bash
 $ brew install sox
-```
-
-`itunes-client` はカスタマイズしたものを使うので[specific_install](https://github.com/rdp/specific_install)というgemを使ってインストールする。
-
-```bash
-$ gem specific_install https://github.com/takuminnnn/itunes-client.git
+$ gem install itunes-client
 $ gem install voice_text_api
 $ gem install clockwork
 ```
