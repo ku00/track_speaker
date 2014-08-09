@@ -17,6 +17,8 @@ VoiceText APIを使って喋らせてます。https://cloud.voicetext.jp/webapi
 $ git clone git@github.com:takuminnnn/track_speaker.git
 ```
 
+track_speakerに必要なものをインストールしておく。
+
 ```bash
 $ brew install sox
 $ gem install itunes-client
@@ -27,5 +29,6 @@ $ gem install clockwork
 # Usage
 
 ```bash
+$ cd track_speaker/
 $ clockwork clock.rb
 ```
