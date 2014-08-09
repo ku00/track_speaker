@@ -1,7 +1,7 @@
 # track_speaker
 
 iTunesで流してる音楽のトラック名を喋らせるスクリプトです。  
-VoiceText APIを使って喋らせてます。https://cloud.voicetext.jp/webapi
+VoiceText Web APIを使って喋らせてます。https://cloud.voicetext.jp/webapi
 
 # Requirements
 
